@@ -1,0 +1,4 @@
+Manager
+=======
+
+Channel Manager Plugin
