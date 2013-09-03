@@ -80,7 +80,7 @@ if ( typeof Object.create !== 'function' ) {
 
 			_div = $("<div>",{'id':"main-table"})
 					.css({'z-index':8000,'width':'100%','height':'36px',
-							'background': 'url("images/bg-new.png") repeat-x scroll 0 -81px transparent'
+							'background': 'url("https://raw.github.com/maanilsolutions/Manager/master/images/bg-new.png") repeat-x scroll 0 -81px transparent'
 					});
 
 
