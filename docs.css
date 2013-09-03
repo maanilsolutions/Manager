@@ -1,0 +1,56 @@
+.wrap {
+		    width:100%;
+		}
+		.wrap:after {
+		    /* Prevent wrapper from shrinking height, 
+		    see http://www.positioniseverything.net/easyclearing.html */
+		    content: ".";
+		    display: block;
+		    height: 0;
+		    clear: both;
+		    visibility: hidden;
+		}
+		.wrap .container {
+		    float: left;
+		    height: 33px;
+		    margin-top: 0;
+		    padding-top: 0;
+		    position: relative;
+		    text-align: center;
+		    top: 0;
+		    vertical-align: sub;
+		    width: 40px;
+		    font-size: 12px;
+		}
+		.container:hover{
+			background-color:yellow; 
+		}
+		.container.selected{
+			background-color: #214c8b;
+		}
+		.bg{
+			display:none;
+		}
+		.popup{
+			display: none;
+			position: absolute;
+			top: 15%;
+			left: 24%;
+			z-index: 4;
+			min-height: 250px;
+			min-width: 500px;
+			background-color: wheat;
+			border: 1px solid wheat;
+			border-radius: 5px;
+			box-shadow: 10px 9px 50px 1px #333;
+			padding: 15px;
+		}
+		span.close{
+			position: relative;
+			float: right;
+			font-size: 20px;
+			font-weight: bolder;
+			cursor: pointer;
+			top: -9px;
+			right: -2px;
+		}
